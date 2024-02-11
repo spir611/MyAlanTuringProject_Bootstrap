@@ -1,0 +1,167 @@
+/******************************************************************************/
+/*                                                                            */
+/*          Stylesheet Alan Turing Project with Bootstrap                     */
+/*          Author: Sandra Barbara Pirpamer                                   */
+/*          Version: 1.0                                                      */
+/*          Date: FEBRERO 2024                                                */
+/*          Comments: Lenguaje de Marcas Project Bootstrap 2Trimestre         */
+/*                                                                            */   
+/******************************************************************************/
+
+
+
+/***********************************fonts***************************************/
+
+@font-face {  
+    font-family: alanturing;
+    src: url(../font/CHECKBK0.TTF)
+} 
+
+@font-face {
+    font-family: textonormal;
+    src: url(../font/OpenSans-Regular.ttf)
+
+}
+
+
+
+
+
+
+
+/***********************************hero******************************************/
+.text_custom_nav{
+    font-family: alanturing;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:rgb(9, 50, 235);
+}
+
+body{
+    font-family: textonormal;
+}
+
+#hero{
+    background-image: url(../img/DALL·E\ 2023-11-04\ 21.12.23.jpg);
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.text_custom_hero{
+    font-family: alanturing;
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:rgb(9, 50, 235);  
+}
+
+.text_custom_btn{
+    font-family: alanturing;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:rgb(9, 50, 235);
+    box-shadow: inset;
+    border: 1px 1px solid grey;
+
+}
+
+.text_custom_btn:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+.text_custom_titles{
+    font-family: alanturing;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:rgb(9, 50, 235);  
+}
+
+.border-custom-blockquote{
+    border-left-width: 4px!important;
+    border-left-color:  rgb(9, 50, 235)!important;
+    
+}
+
+.text_custom_contents_1{
+    font-family: alanturing;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color:rgb(9, 50, 235); 
+}
+
+.btn_custom_readmore{
+    font-family: alanturing;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(9, 50, 235)!important;
+    box-shadow:blue!important;
+    border: 2px 2px solid rgb(9, 50, 235)!important;
+}
+
+.btn_custom_readmore:hover{
+    font-family: alanturing;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color:rgb(9, 50, 235)!important;
+    color: white!important;
+    box-shadow: inset;
+    border: 1px 1px solid grey;
+
+}
+
+.accordion_custom_button_color{
+    background-image: url(../img/doodad.png); 
+}
+
+.accordion-button::after {
+    /* Reemplaza el pseudo-elemento after con tu propia flecha */
+    content: "\25B6"; /* Código Unicode para la flecha hacia la derecha */
+    color:white;
+    font-size: 0.75em;
+    position: relative;
+    top: -2px; /* Ajusta según sea necesario */
+}
+
+.accordion-button.collapsed::after {
+    /* Cambia la flecha a abajo cuando el acordeón está abierto */
+    content: "\25BC"; /* Código Unicode para la flecha hacia abajo */
+
+}
+
+.accordion_font_custom{
+    font-family: alanturing;
+}
+
+.btn_custom_submit{
+    font-family: alanturing;
+    font-size: 1.2em;
+    
+    letter-spacing: 4px;
+    background-color: rgb(9, 50, 235)!important;
+    box-shadow:blue!important;
+    border: 2px 2px solid rgb(9, 50, 235)!important;
+}
+
+.btn_custom_submit:hover{
+    font-family: alanturing;
+    font-size: 1.2em;
+    
+    letter-spacing: 4px;
+    color: rgb(9, 50, 235)!important;
+    background-color: white!important;
+    box-shadow: inset;
+    border: 1px 1px solid grey;
+
+}
+.color_custom{
+    color: rgb(9, 50, 235)!important;
+}
