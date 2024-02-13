@@ -10,7 +10,7 @@
 
 
 
-/***********************************fonts***************************************/
+/***********************************custom fonts definition***************************************/
 
 @font-face {  
     font-family: alanturing;
@@ -23,23 +23,20 @@
 
 }
 
-
-
-
-
-
-
-/***********************************hero******************************************/
-.text_custom_nav{
-    font-family: alanturing;
-    font-size: 2em;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color:rgb(9, 50, 235);
-}
+/***************************general aplication of specialfonts****************************/
 
 body{
     font-family: textonormal;
+}
+
+
+
+/***********************************custom hero******************************************/
+.text_custom_nav{
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: white!important;
+
 }
 
 #hero{
@@ -49,119 +46,117 @@ body{
     background-position: center;
 }
 
-.text_custom_hero{
+
+/*****************custom texts*****font size spacing and font family****************/
+
+.custom_font_family{
     font-family: alanturing;
+}
+
+.custom_letter_spacing{
+    letter-spacing: 3px;
+}
+
+
+.fs_custom_5{
     font-size: 5em;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color:rgb(9, 50, 235);  
 }
 
-.text_custom_btn{
-    font-family: alanturing;
-    font-size: 2em;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color:rgb(9, 50, 235);
-    box-shadow: inset;
-    border: 1px 1px solid grey;
-
-}
-
-.text_custom_btn:hover{
-    background-color: blue;
-    color: white;
-
-}
-
-.text_custom_titles{
-    font-family: alanturing;
+.fs_custom_3{
     font-size: 3em;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color:rgb(9, 50, 235);  
 }
 
-.border-custom-blockquote{
-    border-left-width: 4px!important;
-    border-left-color:  rgb(9, 50, 235)!important;
+.fs_custom_1_5{
+    font-size: 1.5em; 
+}
+.text_custom_titles{
+    font-size: 3em;
+    
+}  
+
+.text_custom_contents_1{
+    font-size: 1.5em;
     
 }
 
-.text_custom_contents_1{
-    font-family: alanturing;
-    font-size: 1.5em;
-    font-weight: bold;
-    letter-spacing: 3px;
+
+/****************************custom colors*****************************************/
+
+.custom_color{
     color:rgb(9, 50, 235); 
 }
 
-.btn_custom_readmore{
-    font-family: alanturing;
-    font-size: 1.2em;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: rgb(9, 50, 235)!important;
-    box-shadow:blue!important;
-    border: 2px 2px solid rgb(9, 50, 235)!important;
+.custom_bg_color{
+    background-color: rgb(9, 50, 235);
 }
 
-.btn_custom_readmore:hover{
-    font-family: alanturing;
-    font-size: 1.2em;
-    font-weight: bold;
+
+/*****************************custom button styling*********************************/
+
+/*************custom button cards************************/
+.custom_btn_cards{
+    /* font-size: 2em; */
     letter-spacing: 3px;
-    background-color:rgb(9, 50, 235)!important;
-    color: white!important;
     box-shadow: inset;
-    border: 1px 1px solid grey;
-
+    border: 1px 1px solid grey!important;
 }
 
-.accordion_custom_button_color{
-    background-image: url(../img/doodad.png); 
+.custom_btn_cards:hover{
+    background-color: rgb(9, 50, 235)!important;
+    color: white!important;
 }
 
-.accordion-button::after {
-    /* Reemplaza el pseudo-elemento after con tu propia flecha */
-    content: "\25B6"; /* Código Unicode para la flecha hacia la derecha */
-    color:white;
-    font-size: 0.75em;
-    position: relative;
-    top: -2px; /* Ajusta según sea necesario */
-}
+/****custom button styling incl read more submit**********/
 
-.accordion-button.collapsed::after {
-    /* Cambia la flecha a abajo cuando el acordeón está abierto */
-    content: "\25BC"; /* Código Unicode para la flecha hacia abajo */
-
-}
-
-.accordion_font_custom{
-    font-family: alanturing;
-}
-
-.btn_custom_submit{
-    font-family: alanturing;
+.btn_custom{
     font-size: 1.2em;
-    
     letter-spacing: 4px;
     background-color: rgb(9, 50, 235)!important;
-    box-shadow:blue!important;
+    box-shadow: rgb(9, 50, 235)!important;
     border: 2px 2px solid rgb(9, 50, 235)!important;
+    box-shadow: inset;
+    color: white!important;
 }
 
-.btn_custom_submit:hover{
-    font-family: alanturing;
+.btn_custom:hover{
     font-size: 1.2em;
-    
     letter-spacing: 4px;
     color: rgb(9, 50, 235)!important;
     background-color: white!important;
     box-shadow: inset;
-    border: 1px 1px solid grey;
-
+    border: 1px 1px solid grey!important;
 }
-.color_custom{
-    color: rgb(9, 50, 235)!important;
+
+
+
+
+
+
+  
+
+
+/********************************custom borders**********************************/
+.border-custom-blockquote{
+    border-left-width: 4px!important;
+    border-left-color:  rgb(9, 50, 235)!important;
+}
+
+
+
+
+/******************customized accordian effect -background pattern, arrow and collapse********/
+.accordion_custom_bg{
+    background-image: url(../img/doodad.png); 
+}
+
+.accordion-button::after {
+    content: "\25B6"; 
+    color:white;
+    font-size: 0.75em;
+    position: relative;
+    top: -2px; 
+}
+
+.accordion-button.collapsed::after {
+    content: "\25BC"; 
 }
