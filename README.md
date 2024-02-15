@@ -124,7 +124,7 @@ Both components lay upon a black background to accentuate and add consistency to
 <h2 id="snippets">Code Snippets</h2>
 <p>I used the following Code Snippets in my Project: (includes source name and link)</p>
 <ul>
-  <li>Navigation Bar (and Hamburger Menu) in Hero Section: copied from w3Schools in "How to" <a href=""></li>
+  <li>Navigation Bar (and Hamburger Menu) in Hero Section:<a href=""></li>
   <li>Accordion: (in Other Inventions Section) <a href=""></a></li>
   <li>Slideshow Gallery: (in Gallery Section)<a href=""></a></li>
   <li>Modal: (Credits in Footer Section)<a href=""></a></li>
