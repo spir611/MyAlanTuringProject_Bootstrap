@@ -29,11 +29,9 @@ body{
     font-family: textonormal;
 }
 
-
 /***********************************custom hero******************************************/
 .text_custom_nav{
     color: white!important;
-
 }
 
 #hero{
@@ -54,7 +52,6 @@ body{
     letter-spacing: 3px;
 }
 
-
 .fs_custom_5{
     font-size: 5em;
 }
@@ -69,23 +66,21 @@ body{
 
 .text_custom_titles{
     font-size: 3em;
-    
 }  
 
 .text_custom_contents_1{
     font-size: 1.5em;
-    
 }
 
 
 /****************************custom colors*****************************************/
 
 .custom_color{
-    color:rgb(9, 50, 235); 
+    color:rgb(9, 50, 235)!important; 
 }
 
 .custom_bg_color{
-    background-color: rgb(9, 50, 235);
+    background-color: rgb(9, 50, 235)!important;
 }
 
 
@@ -93,11 +88,6 @@ body{
 
 /*************custom button cards************************/
 
-.custom_btn_cards{
-    letter-spacing: 3px;
-    box-shadow: inset;
-    border: 1px 1px solid grey!important;
-}
 
 .custom_btn_cards:hover{
     background-color: rgb(9, 50, 235)!important;
@@ -111,29 +101,23 @@ body{
     letter-spacing: 4px;
     background-color: rgb(9, 50, 235)!important;
     box-shadow: rgb(9, 50, 235)!important;
-    border: 2px 2px solid rgb(9, 50, 235)!important;
-    box-shadow: inset;
+    border-color: rgb(9, 50, 235)!important;
     color: white!important;
-}
+} 
 
 .btn_custom:hover{
-    font-size: 1.2em;
-    letter-spacing: 4px;
     color: rgb(9, 50, 235)!important;
     background-color: white!important;
-    box-shadow: inset;
-    border: 1px 1px solid grey!important;
+    border: 2px 2px solid rgb(9, 50, 235)!important;
 }
 
 
 /********************************custom borders**********************************/
 .border-custom-blockquote{
-    border-left-width: 4px!important;
     border-left-color:  rgb(9, 50, 235)!important;
 }
 
 .border_footer{
-    border-top-width: 1px!important;
     border-color:  rgb(9, 50, 235)!important; 
 }
 
@@ -161,15 +145,12 @@ body{
 
 
 
-/***************************** Estilo para pantallas grandes **********************************/
+/***************************** Special letter sizing for responsiveness Hero page for large screens**********************************/
 @media screen and (min-width: 1075px) {
     #hero {
       font-size: 2.0em!important;
     }
-
-
 }  
-
 
 
 @media screen and (min-width: 1475px) {
@@ -181,5 +162,4 @@ body{
     
         height: 50vh!important;
     }
-
 }    
