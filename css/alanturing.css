@@ -120,10 +120,7 @@ body{
 }
 
 /******************customized accordian effect -background pattern, arrow and collapse********/
-/* #OtherInventions{
-    
-    height: 75vh;
-} */
+
 
 .accordion_custom_bg{
     background-image: url(../img/doodad.png); 
