@@ -93,7 +93,7 @@ body{
 /****custom button styling : incl readmore and submit buttons**********/
 
 .btn_custom{
-    font-size: 1.2em!importa;
+    font-size: 1.2em!important;
     letter-spacing: 4px!important;
     background-color: rgb(9, 50, 235)!important;
     box-shadow: rgb(9, 50, 235)!important;
