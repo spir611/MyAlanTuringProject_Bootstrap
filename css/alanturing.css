@@ -30,9 +30,7 @@ body{
 }
 
 /***********************************custom hero******************************************/
-.text_custom_nav{
-    color: white!important;
-}
+
 
 #hero{
     background-image: url(../img/DALL·E\ 2023-11-04\ 21.12.23.jpg);
@@ -122,10 +120,10 @@ body{
 }
 
 /******************customized accordian effect -background pattern, arrow and collapse********/
-#OtherInventions{
+/* #OtherInventions{
     
     height: 75vh;
-}
+} */
 
 .accordion_custom_bg{
     background-image: url(../img/doodad.png); 
