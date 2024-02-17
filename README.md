@@ -33,7 +33,7 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="https://github.com/spir611/MyProject_AlanTuring/blob/main/AT-readme/Hero_page_image_capture.png" alt="Hero Section Image Alan Turing" style="width:50%">
+<img src="https://github.com/spir611/MyProject_AlanTuring/blob/main/AT-readme/" alt="Hero Section Image Alan Turing" style="width:50%">
 <p>I used a background image created via artificial intelligence in Dall-e which blended all the colours in my colour palette. I used a special Call to<br>
  Action button "Enigma" associated with Alan Turing with inverse color pattern initiated upon hovering. The Call to Action button <br>
  leads directly to the Contents Card Menu of the Web. The semi-transparent Navigation Bar is located along the superior part of the Hero Section in PCs, 
@@ -82,29 +82,28 @@ Both components lay upon a black background to accentuate and add consistency to
 <h3>Gallery Section</h3>
 <p>This section contains a slideshow Gallery with 6 images related to Alan Turing which were obtained from the following sources (links:)</p>
 <ul>
-    <li>Image 1: <a href="https://miro.medium.com/v2/resize:fit:1080/0*3KoQ22n6444LQr0K">Alan Turing Famous Quote</a></li>
+    <li>Image 1: <a href="https://miro.medium.com/v2/resize:fit:1080/0*3KoQ22n6444LQr0K">Image of Alan Turing and his paper 'Mind'</a></li>
    <li>Image 2: <a href="https://i.ytimg.com/vi/Hv9hkWF3TYM/maxresdefault.jpg">The Turing Machine Proposal</a></li>
    <li>Image 3: <a href="https://s0.geograph.org.uk/geophotos/05/11/18/5111862_10334db1.jpg">The Bombe Replica -Exterior View</a></li>
    <li>Image 4: <a href="https://i.ytimg.com/vi/Kq59nsLnuvg/maxresdefault.jpg">The Bombe Replica - Interior View</a></li>
     <li>Image 5: <a href="https://i.abcnewsfe.com/a/187ba44a-8c4a-4a87-96e7-140a1767243f/TuringTestInfographic_v01_DG_1689800738777_hpEmbed_16x9.jpg">The Turing Test</a></li>
-   <li>Image 6: <a href="https://factmyth.com/wp-content/uploads/2016/06/can-machines-think.jpg">Alan Turing's Reflection on Computers</a></li>
+   <li>Image 6: <a href="https://elemmental.com/wp-content/uploads/2022/06/Alan-Turing-cp.webp">Alan Turing portrait with colored coding in backgroune</a></li>
 </ul>
 
 <p></p>
 <h3>Contact Section</h3>
-<p>This section contains my name and contact email address with a direct link to outlook.</p>
+<p>This section contains a form to subscribe to the newsletter.</p>
 
 <h3>Footer</h3>
-<p>My footer contains my Social Media links (Whatsapp, Facebook, Telegram, LinkedIn and GitHub), Credits links, and a copy of my Navigation Menu. In Pc in also includes an image relating to 
- Artificial Intelligence. (source link to image: <a href=" ">Artificial Intelligence Icon </a></p>
+<p>My footer contains my Social Media links (Whatsapp, Facebook, Telegram, LinkedIn and GitHub), Credits links, my email, copyright information and a copy of my Navigation Menu. In PCs an image of Artificial Intelligence which resembles Alan Turing. (source link to image: <a href="https://i0.wp.com/doctorpaul.org/wp-content/uploads/2023/11/Screen-Shot-2023-11-08-at-3.23.17-PM.png?w=782&ssl=1 ">Artifical Intelligence image Resembling Alan Turing</a></p>
  
 <p></p>
 <h2 id="pagestyle">Page Styling</h2>
 <h3>My Colour Palette:</h3>
 <ul>
   <li>RGB(9, 50, 235): for Titles and button wording, hovering (buttons, Navegation Menu, Accordion titles, etc.</li>  
-  <li>Black for page background,normal text and Hero page image background</li>
-  <li>Grey and White for altering wrapper background and detailing in Hero Section</li> 
+  <li>Black for page background,normal text, Hero page image background, frame for Funfacts Section and as the background for the footer and contact sections.</li>
+  <li>Grey and white for altering wrapper background and detailing in Hero Section</li> 
 </ul>
 
 
