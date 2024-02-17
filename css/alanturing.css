@@ -39,8 +39,13 @@ body{
     background-position: center;
 }
 
+/*nav items and footer menu*/
+.text-hover:hover {
+    color: rgba(9, 50, 235, .95) !important;
+  }
+  
 
-/*****************custom texts*****font size spacing and font family****************/
+/*****************custom texts*****custom font sized, custom letter spacing and custom font family****************/
 
 .custom_font_family{
     font-family: alanturing;
@@ -62,13 +67,6 @@ body{
     font-size: 1.5em; 
 }
 
-.text_custom_titles{
-    font-size: 3em;
-}  
-
-.text_custom_contents_1{
-    font-size: 1.5em;
-}
 
 
 /****************************custom colors*****************************************/
@@ -82,7 +80,7 @@ body{
 }
 
 
-/*****************************custom button styling*********************************/
+/*****************************custom button styling and hover values*********************************/
 
 /*************custom button cards************************/
 
@@ -92,11 +90,11 @@ body{
     color: white!important;
 }
 
-/****custom button styling incl read more submit**********/
+/****custom button styling : incl readmore and submit buttons**********/
 
 .btn_custom{
-    font-size: 1.2em;
-    letter-spacing: 4px;
+    font-size: 1.2em!importa;
+    letter-spacing: 4px!important;
     background-color: rgb(9, 50, 235)!important;
     box-shadow: rgb(9, 50, 235)!important;
     border-color: rgb(9, 50, 235)!important;
@@ -126,6 +124,7 @@ body{
     background-image: url(../img/doodad.png); 
 }
 
+/******special unicode icon to replace lost arrows in accordion***/
 .accordion-button::after {
     content: "\25B6"; 
     color:white;
