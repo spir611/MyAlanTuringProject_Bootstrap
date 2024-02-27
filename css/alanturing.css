@@ -17,11 +17,11 @@
     src: url(../font/CHECKBK0.TTF)
 } 
 
-@font-face {
+/* @font-face {
     font-family: textonormal;
     src: url(../font/OpenSans-Regular.ttf)
 
-}
+} */
 
 /***************************general aplication of specialfonts****************************/
 
@@ -156,4 +156,12 @@ body{
     
         height: 50vh!important;
     }
-}    
+
+
+
+}
+
+
+.form-text{
+    visibility: hidden;
+}
